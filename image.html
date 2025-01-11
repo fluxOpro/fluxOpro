@@ -16,10 +16,11 @@
         <main>
             <div class="container">
                 <img src="download.png" alt="Image description">
-                <form action="https://www.google.com/search?tbm=isch">
+                <form action="https://www.google.com/search" method="get">
+                    <input type="hidden" name="tbm" value="isch">
                     <input type="text" name="q" class="search-text" placeholder="Search for an image">
                     <input type="submit" value="Google Search" class="search-button">
-                </form>
+                </form>                
             </div>
         </main>
         </body>
